@@ -13,7 +13,7 @@ from langchain.memory import ConversationBufferMemory
 from langchain.prompts import MessagesPlaceholder
 
 # Streamlit Community Cloudの「Secrets」からOpenAI API keyを取得
-openai.api_key = st.secrets.OpenAIAPI.openai_api_key
+openai_api_key = st.secrets.OpenAIAPI.openai_api_key
 
 def create_agent_chain():
     chat = ChatOpenAI(
