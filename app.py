@@ -17,8 +17,8 @@ openai.api_key = st.secrets.OpenAIAPI.openai_api_key
 
 def create_agent_chain():
     chat = ChatOpenAI(
-        model_name="gpt-3.5-turbo",
         temperature=0.5,
+        model_name="gpt-3.5-turbo-0613",
         streaming=True,
     )
 
