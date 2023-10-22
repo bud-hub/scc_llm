@@ -1,0 +1,7 @@
+streamlit==1.27.0
+pyngrok==4.1.1
+openai
+langchain
+duckduckgo-search
+wikipedia
+python-dotenv
