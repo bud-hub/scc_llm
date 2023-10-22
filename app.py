@@ -2,7 +2,6 @@
 import os
 import openai  # 追加: openaiモジュールをインポート
 import streamlit as st
-from dotenv import load_dotenv
 from langchain.chat_models import ChatOpenAI
 from langchain.schema import HumanMessage
 
